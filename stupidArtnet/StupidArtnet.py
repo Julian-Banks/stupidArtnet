@@ -191,6 +191,7 @@ class StupidArtnet():
 
     def start(self):
         """Starts thread clock."""
+        print('Start Thread has been run')
         self.show()
         if not hasattr(self, "running"):
             self.running = True
